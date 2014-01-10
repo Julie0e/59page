@@ -21,6 +21,7 @@
 		007BA733187FD0FE00B5D49A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007BA715187FD0FD00B5D49A /* UIKit.framework */; };
 		007BA73B187FD0FE00B5D49A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 007BA739187FD0FE00B5D49A /* InfoPlist.strings */; };
 		007BA73D187FD0FE00B5D49A /* _9pageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BA73C187FD0FE00B5D49A /* _9pageTests.m */; };
+		007BA748187FD54800B5D49A /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 007BA747187FD54800B5D49A /* DetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		007BA738187FD0FE00B5D49A /* 59pageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "59pageTests-Info.plist"; sourceTree = "<group>"; };
 		007BA73A187FD0FE00B5D49A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		007BA73C187FD0FE00B5D49A /* _9pageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _9pageTests.m; sourceTree = "<group>"; };
+		007BA746187FD54800B5D49A /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		007BA747187FD54800B5D49A /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				007BA727187FD0FE00B5D49A /* ViewController.m */,
 				007BA729187FD0FE00B5D49A /* Images.xcassets */,
 				007BA718187FD0FD00B5D49A /* Supporting Files */,
+				007BA746187FD54800B5D49A /* DetailVC.h */,
+				007BA747187FD54800B5D49A /* DetailVC.m */,
 			);
 			path = 59page;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007BA728187FD0FE00B5D49A /* ViewController.m in Sources */,
+				007BA748187FD54800B5D49A /* DetailVC.m in Sources */,
 				007BA722187FD0FE00B5D49A /* AppDelegate.m in Sources */,
 				007BA71E187FD0FD00B5D49A /* main.m in Sources */,
 			);
